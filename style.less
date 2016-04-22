@@ -70,13 +70,36 @@
 		border:@the_border;
 		border-color:desaturate(@blue,10%);
 		font-size:@font-size+2;
+		border-bottom:1px solid @blue;
 
 	}
 	
 }
-
-
-
+.boxShadow(@x:0,@y:0,@blur:1px,@color:#000){
+	box-shadow:@arguments;
+	-moz-box-shadow:@arguments;
+	-webkit-box-shadow:@arguments;
+}
+.div_6{
+	.boxShadow(2px,2px,3px,#3cf);
+}
+.div_7{
+	width:200px;
+	height:100px;
+	color:#369;
+	a{
+		font-size:14px;
+		color:#3cf;
+		&:hover{
+			color:#f00;
+			text-decoration:underline;
+		}
+	}
+}
+init:#f00;
+.div_8{
+	color:fadein(@init,10%);
+}
 
 
 
