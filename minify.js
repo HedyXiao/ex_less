@@ -1,6 +1,6 @@
 var fs = require('fs'),
     path = require('path'),
-    UglifyJS = require("uglify-js"),
+    // UglifyJS = require("uglify-js"),
     child = require('child_process');
 // smushit = require('node-smushit');
 
@@ -64,7 +64,7 @@ function readfile(_path) {
                         minify_css(newpath);
                     }
                     if (file.indexOf('.js') > -1 && file.indexOf('.json') < 0 && file.indexOf('.min.js') < 0 && newpath.indexOf(path.sep + 'dialog' + path.sep) < 0 ) {
-                        minify_js(newpath);
+                        // minify_js(newpath);
                     }
                 // }
             }

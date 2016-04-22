@@ -1,0 +1,19 @@
+{
+  "name": "ex_less",
+  "version": "1.0.0",
+  "description": "",
+  "main": "minify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HedyXiao/ex_less.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HedyXiao/ex_less/issues"
+  },
+  "homepage": "https://github.com/HedyXiao/ex_less#readme"
+}
